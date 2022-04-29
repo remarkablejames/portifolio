@@ -3,7 +3,7 @@ import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import { GiAchievement } from "react-icons/gi";
 import { BiMessageSquareDetail } from "react-icons/bi";
 
 export const Nav = () => {
@@ -33,11 +33,11 @@ export const Nav = () => {
         <BiBook />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveLink("#services")}
-        className={activeLink === "#services" ? "active" : ""}
+        href="#portifolio"
+        onClick={() => setActiveLink("#portifolio")}
+        className={activeLink === "#portifolio" ? "active" : ""}
       >
-        <RiServiceLine />
+        <GiAchievement />
       </a>
       <a
         href="#contact"
