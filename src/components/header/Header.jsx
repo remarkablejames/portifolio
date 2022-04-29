@@ -12,12 +12,11 @@ export const Header = () => {
           <h5>Hello, I'm</h5>
           <h1 id="text"></h1>
           <h5 className="text-light">
-            A remarkable full stack developer Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. Unde ipsa modi, corrupti blanditiis
-            nulla earum fugiat! Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Amet deserunt mollitia quod error repellendus rem
-            labore enim esse sed velit! Sit harum facilis libero culpa a
-            provident sint animi voluptatem?
+            A professional full-stack javascript developer with remarkable
+            skills in React-redux, Git, Nodejs, MongoDB and much more! I like
+            working on the front-end of the web. This is my site,
+            remarkablejames.com, where I showcase and share whatever side
+            projects I've been working on.
           </h5>
           <CTA />
         </div>
