@@ -3,7 +3,7 @@ import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { GiAchievement } from "react-icons/gi";
+import { FaBriefcase } from "react-icons/fa";
 import { BiMessageSquareDetail } from "react-icons/bi";
 
 export const Nav = () => {
@@ -37,7 +37,7 @@ export const Nav = () => {
         onClick={() => setActiveLink("#portifolio")}
         className={activeLink === "#portifolio" ? "active" : ""}
       >
-        <GiAchievement />
+        <FaBriefcase />
       </a>
       <a
         href="#contact"
