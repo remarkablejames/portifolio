@@ -47,6 +47,11 @@ header {
 }
 .banner__container h5 {
   color: white;
+  font-weight: 600;
+}
+.banner__container h1 {
+  color: #e9df00;
+  font-weight: 900;
 }
 /* ==============ME (The image component)================= */
 .me {
@@ -99,5 +104,8 @@ header {
   }
   header {
     padding-top: 2rem;
+  }
+  .banner__container h1 {
+    font-size: 2rem;
   }
 }
