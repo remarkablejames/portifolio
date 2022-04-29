@@ -10,7 +10,7 @@ export const Header = () => {
       <div className="container header__container">
         <div className="banner__container">
           <h5>Hello, I'm</h5>
-          <h1>reMarkableJames</h1>
+          <h1 id="text"></h1>
           <h5 className="text-light">
             A remarkable full stack developer Lorem ipsum dolor sit, amet
             consectetur adipisicing elit. Unde ipsa modi, corrupti blanditiis
