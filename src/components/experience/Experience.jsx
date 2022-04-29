@@ -1,6 +1,16 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import html from "../../assets/svg icons/HTML5.svg";
+import css from "../../assets/svg icons/CSS 3.svg";
+import js from "../../assets/svg icons/javascript.svg";
+import react from "../../assets/svg icons/react.svg";
+import reduxicon from "../../assets/svg icons/redux.png";
+import mongo from "../../assets/svg icons/MongoDB.png";
+import node from "../../assets/svg icons/Nodejs.png";
+import giticon from "../../assets/svg icons/GIT.png";
+import github from "../../assets/svg icons/GITHUB.png";
+import webpackicon from "../../assets/svg icons/WEBPACK.png";
 
 export const Experience = () => {
   return (
@@ -8,94 +18,35 @@ export const Experience = () => {
       <h5>What Skills I have</h5>
       <h2>My Experience</h2>
       <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>FrontEnd Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JAVASCRIPT</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>BOOTSRAP</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>TAILWIND</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>REACT</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-          </div>
+        <div className="experience__box">
+          <img src={html} alt="" />
         </div>
-        {/* END OF THE FRONTEND PART */}
-
-        <div className="experience__backend">
-          <h3> Backend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Nodejs</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MONGODB</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>PHP</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MYSQL</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>PYTHON</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-          </div>
+        <div className="experience__box">
+          <img src={css} alt="" />
+        </div>
+        <div className="experience__box">
+          <img src={js} alt="" />
+        </div>
+        <div className="experience__box">
+          <img src={react} alt="" />
+        </div>
+        <div className="experience__box">
+          <img src={reduxicon} alt="" />
+        </div>
+        <div className="experience__box">
+          <img src={mongo} alt="" />
+        </div>
+        <div className="experience__box">
+          <img src={node} alt="" />
+        </div>
+        <div className="experience__box">
+          <img src={giticon} alt="" />
+        </div>
+        <div className="experience__box">
+          <img src={github} alt="" />
+        </div>
+        <div className="experience__box">
+          <img src={webpackicon} alt="" />
         </div>
       </div>
     </section>
