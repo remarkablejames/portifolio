@@ -35,9 +35,9 @@ export const About = () => {
             </article>
           </div>
           <p className="about-text">
-            Outstanding developer immensely fond of programming, with strong
-            skills in Markup Languages, Scripting languages as well as back-end
-            technologies of the modern web.
+            Outstanding developer, who is immensely fond of programming, with
+            strong skills in Markup Languages, Scripting languages as well as
+            back-end technologies of the modern web.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
