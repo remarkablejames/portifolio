@@ -9,7 +9,7 @@ export const Header = () => {
     <header>
       <div className="container header__container">
         <div className="banner__container">
-          <h5>Hello, I'm</h5>
+          <h5>Hola, I'm</h5>
           <h1 id="text"></h1>
           <h5 className="text-light">
             A professional full-stack javascript developer with remarkable

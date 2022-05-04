@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsWhatsapp } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
 import emailjs from "emailjs-com";
 export const Contact = () => {
   const form = useRef();
@@ -42,14 +42,11 @@ export const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h4>Whatsapp</h4>
-            <h5>james@remarkablejames.com</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone=+250789333972"
-              target="_blank"
-            >
-              Send a message
+            <BsTwitter className="contact__option-icon" />
+            <h4>Twitter</h4>
+            <h5>@remarkablejames</h5>
+            <a href="https://www.twitter.com/remarkablejames" target="_blank">
+              Reach out to me
             </a>
           </article>
         </div>

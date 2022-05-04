@@ -34,11 +34,10 @@ export const About = () => {
               <small>80+ Completed projects</small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
-            totam illo quo pariatur culpa, deserunt dicta labore libero eligendi
-            hic harum nam, sequi, cupiditate dolore nesciunt exercitationem quas
-            cumque! Illum?
+          <p className="about-text">
+            Outstanding developer immensely fond of programming, with strong
+            skills in Markup Languages, Scripting languages as well as back-end
+            technologies of the modern web.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

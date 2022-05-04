@@ -19,10 +19,15 @@
   border-radius: 2rem;
   user-select: none;
 }
+.client__name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
 
 .client__review {
-  color: var(--color-light);
+  color: #fff;
   font-weight: 300;
+  font-size: 1.2rem;
   display: block;
   width: 80%;
   margin: 0.8rem auto 0;
