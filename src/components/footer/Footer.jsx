@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { IoLogoTwitter } from "react-icons/io";
+import { IoLogoGithub } from "react-icons/io";
 
 export const Footer = () => {
   return (
@@ -33,14 +34,11 @@ export const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="twitter.com/remarkablejames">
+        <a href="https://www.twitter.com/remarkablejames" target="_blank">
           <IoLogoTwitter />
         </a>
-        <a href="twitter.com/remarkablejames">
-          <IoLogoTwitter />
-        </a>
-        <a href="twitter.com/remarkablejames">
-          <IoLogoTwitter />
+        <a href="https://www.github.com/remarkablejames" target="_blank">
+          <IoLogoGithub />
         </a>
       </div>
       <div className="footer__copyright">
