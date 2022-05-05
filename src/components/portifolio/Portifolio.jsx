@@ -11,10 +11,10 @@ export const Portifolio = () => {
   const images = [
     {
       id: 1,
-      title: "Data collection system",
+      title: "Video-Search Application",
       image: IMG1,
-      github: "",
-      demo: "",
+      github: "https://github.com/remarkablejames/video-search-app",
+      demo: "https://video-search-app-james.netlify.app/",
     },
     {
       id: 2,
