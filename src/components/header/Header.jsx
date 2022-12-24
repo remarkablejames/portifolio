@@ -9,19 +9,18 @@ export const Header = () => {
     <header>
       <div className="container header__container">
         <div className="banner__container">
-          <h5>Hola, I'm</h5>
+          {/* <h5></h5>  */}
           <h1 id="text"></h1>
           <h5 className="text-light">
-            A professional full-stack javascript developer with remarkable
-            skills in React-redux, Git, Nodejs, MongoDB and much more! I like
-            working on the front-end of the web. This is my site,
-            remarkablejames.com, where I showcase and share whatever side
-            projects I've been working on.
+            I am, a professional full-stack javascript developer with excellent
+            skills in React/redux, Git flow, Nodejs, MongoDB and much more! I
+            like working on the back-end of the web. You have made it to the
+            site where I showcase whatever side projects I've been working on.
           </h5>
           <CTA />
         </div>
         <div className="me">
-          <img src={ME} alt="Niyongira James" />
+          <img src={ME} alt="James Niyongira" />
         </div>
       </div>
     </header>

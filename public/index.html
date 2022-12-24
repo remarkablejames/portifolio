@@ -44,7 +44,7 @@
     //text effect
 
     document.addEventListener("DOMContentLoaded", function (event) {
-      var dataText = ["reMarkableJames"];
+      var dataText = ["If it's about  JavaScript,", "I'm your guy"];
 
       // type one text in the typwriter
       // keeps calling itself until the text is finished
@@ -59,7 +59,7 @@
           // wait for a while and call this function again for next character
           setTimeout(function () {
             typeWriter(text, i + 1, fnCallback);
-          }, 150);
+          }, 100);
         }
         // text finished, call callback if there is a callback function
         else if (typeof fnCallback == "function") {
