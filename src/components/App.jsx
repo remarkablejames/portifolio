@@ -10,18 +10,20 @@ import { Contact } from "./contact/Contact";
 import { Footer } from "./footer/Footer";
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Portifolio />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </>
-  );
+//   return (
+//     <>
+//       <Header />
+//       <Nav />
+//       <About />
+//       <Experience />
+//       <Portifolio />
+//       <Testimonials />
+//       <Contact />
+//       <Footer />
+//     </>
+//   );
+  
+  return <h3> Site Under Construction. Come back soon </h3>;
 };
 
 export default App;
