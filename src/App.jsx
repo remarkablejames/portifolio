@@ -2,9 +2,11 @@ import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import { Nav } from "./Nav";
 const App = () => {
   return (
     <div className=" h-[100vh]   bg-zinc-900">
+      <Nav />
       <div className=" bg-zinc-900">
         <div className=" flex items-center justify-between sm:mx-12 md:mx-12 py-4 ">
           <div className="flex flex-row items-center space-x-3  ">
