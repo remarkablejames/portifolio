@@ -2,28 +2,50 @@ import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import { Nav } from "./Nav";
 const App = () => {
   return (
     <div className=" h-[100vh]   bg-zinc-900">
-      <Nav />
       <div className=" bg-zinc-900">
         <div className=" flex items-center justify-between sm:mx-12 md:mx-12 py-4 ">
-          <div className="flex flex-row items-center space-x-3  ">
-            <a href="www.google.com" className="text-2xl font-bold text-white">
+          <div className="flex flex-row items-center space-x-6  ">
+            <a href="/" className="text-2xl font-bold text-white">
               James
             </a>
           </div>
-
-          <a
-            href="mailto:jame0246@algonquinlive.com"
-            className="  text-lg font-bold text-white  hover:text-yellow transition-colors duration-300"
-          >
-            Hire Me <span aria-hidden="true">&rarr;</span>
-          </a>
+          <div className="flex flex-row items-center space-x-6   text-white">
+            <a
+              href="/about"
+              className="text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23] "
+            >
+              About
+            </a>
+            <a
+              href="/experience"
+              className="text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]"
+            >
+              Skills
+            </a>
+            <a
+              href="/portifolio"
+              className="text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]"
+            >
+              Portifolio
+            </a>
+            <a
+              href="/contact"
+              className="text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]"
+            >
+              Contact
+            </a>
+            <a
+              href="mailto:jame0246@algonquinlive.com"
+              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+            >
+              Download CV <span aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
         </div>
       </div>
-
       {/*  */}
       <div className="clouds-wrapper">
         <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
@@ -42,8 +64,8 @@ const App = () => {
                 values="0%;3%;0%"
                 repeatCount="indefinite"
               />
-              <stop offset="0%" stopColor="#fff" />
-              <stop offset="100%" stopColor="#ff00" />
+              <stop offset="0%" stop-color="#fff" />
+              <stop offset="100%" stop-color="#ff00" />
             </radialGradient>
             <radialGradient
               id="Gradient2"
@@ -59,8 +81,8 @@ const App = () => {
                 values="0%;3%;0%"
                 repeatCount="indefinite"
               />
-              <stop offset="0%" stopColor="#0ff" />
-              <stop offset="100%" stopColor="#0ff0" />
+              <stop offset="0%" stop-color="#0ff" />
+              <stop offset="100%" stop-color="#0ff0" />
             </radialGradient>
             <radialGradient
               id="Gradient3"
@@ -76,8 +98,8 @@ const App = () => {
                 values="0%;3%;0%"
                 repeatCount="indefinite"
               />
-              <stop offset="0%" stopColor="#F2C94C" />
-              <stop offset="100%" stopColor="#f0f0" />
+              <stop offset="0%" stop-color="#F2C94C" />
+              <stop offset="100%" stop-color="#f0f0" />
             </radialGradient>
           </defs>
           <rect x={0} y={0} width="100%" height="100%" fill="url(#Gradient1)">
@@ -147,6 +169,7 @@ const App = () => {
             />
           </rect>
         </svg>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

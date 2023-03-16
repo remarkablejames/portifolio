@@ -4,18 +4,14 @@ function Home() {
   return (
     <>
       <div className="clouds">
-        <div className=" bg-zinc-900/60 h-full">
+        <div className=" bg-black/70 h-full">
           <div className="flex flex-col items-center justify-around py-20  md:flex-row">
             <div className="hero-text">
-              <h1 className="text-xl font-normal text-white">
-                My name is James,
-              </h1>
-              <h1 className="text-4xl font-normal text-white">
-                a{" "}
-                <span className="text-yellow text-4xl font-bold">
-                  remarkable
+              <h1 className="text-4xl font-light text-white">
+                remarkable{" "}
+                <span className="text-yellow text-4xl font-light text-[#FFF200]">
+                  James
                 </span>{" "}
-                full-stack 🍔 <br /> web developer
               </h1>
               <p className=" text-lg font-normal text-stone-200 max-w-lg mt-3 text-justify overflow-hidden">
                 A full stack web developer with strong skills in developing and
@@ -29,18 +25,18 @@ function Home() {
                 output.
               </p>
               <div className="button_group flex space-x-4">
-                <a
-                  href="mailto:jame0246@algonquinlive.com"
-                  className="px-10 py-2 mt-6 text-xl font-bold text-black bg-yellow rounded-lg transition-all  duration-700 hover:bg-zinc-900 hover:text-white  "
+                <button
+                  type="button"
+                  className=" bg-[#FFF200] text-black rounded-md px-12  m-2 transition duration-500 ease select-none hover:bg-[#a3ba23]  focus:outline-none focus:shadow-outline"
                 >
-                  Work With Me
-                </a>
-                <a
-                  href="#projects"
-                  className="px-10 py-2 mt-6 text-sm md:text-lg  font-medium text-white bg-zinc-900 hover:bg-yellow hover:text-black transition-all duration-700 hover:font-bold rounded-lg"
+                  Let's Talk
+                </button>
+                <button
+                  type="button"
+                  className=" bg-zinc-900 text-white rounded-md px-12 py-2  m-2 transition duration-500 ease select-none hover:bg-[#a3ba23] focus:outline-none focus:shadow-outline"
                 >
-                  See My Work
-                </a>
+                  Download CV
+                </button>
               </div>
             </div>
             <div className="coder-wrapper ">
