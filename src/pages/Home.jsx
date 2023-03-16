@@ -27,9 +27,9 @@ function Home() {
               <div className="button_group flex space-x-4">
                 <button
                   type="button"
-                  className=" bg-[#FFF200] text-black rounded-md px-12  m-2 transition duration-500 ease select-none hover:bg-[#a3ba23]  focus:outline-none focus:shadow-outline"
+                  className=" bg-[#FFF200] text-black rounded-md px-12 py-2  m-2 transition duration-500 ease select-none hover:bg-[#a3ba23]  focus:outline-none focus:shadow-outline"
                 >
-                  Let's Talk
+                  See Projects
                 </button>
                 <button
                   type="button"

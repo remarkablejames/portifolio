@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Skills from "./pages/Skills";
 const App = () => {
   return (
     <div className=" h-[100vh]   bg-zinc-900">
@@ -173,6 +174,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Skills />} />
         </Routes>
       </div>
     </div>
