@@ -3,9 +3,9 @@ import "./home.css";
 function Home() {
   return (
     <>
-      <div className="clouds">
-        <div className=" bg-black/70 h-full">
-          <div className="flex flex-col items-center justify-around py-20  md:flex-row">
+      <div className="clouds ">
+        <div className=" bg-black/70 h-full ">
+          <div className="flex flex-col items-center justify-around pt-28  md:flex-row ">
             <div className="hero-text">
               <h1 className="text-4xl font-light text-white">
                 remarkable{" "}
