@@ -17,23 +17,19 @@ function Home() {
                     About Me
                   </h1>
                   <p className="text-lg font-normal text-white max-w-2xl mt-3 text-justify ">
-                    My name is James Niyongira, I'm a college freshman and an
-                    enthusiastic programmer. My interest in coding began during
-                    my senior year of high school in 2018, when I wanted to
-                    build a small website for my parent's business. Since then,
-                    I've experimented with creating websites by editing online
-                    templates and using site builders, which has given me the
-                    confidence to continue computer science at the advanced
-                    level of high school. For years, the entire journey was a
-                    roller-coaster ride until I chose to reignite the embers of
-                    a burning fire in me to write code by selecting web
-                    development as my college programme. Today, I'm on fire, and
-                    my coding abilities and techniques are booming. I've gone
-                    deep into how modern applications function, exploring many
-                    different languages and technologies. I'm currently enrolled
-                    in college, but I always enjoy learning things outside of my
-                    classes to fill my curiosity, thanks to online learning
-                    platforms.
+                    My name is James Niyongira. I'm a college freshman who is
+                    passionate about programming. I first became interested in
+                    coding during my senior year of high school in 2018 when I
+                    wanted to create a website for my parent's business. I
+                    gained confidence in building websites by using site
+                    builders and editing online templates. This experience
+                    encouraged me to continue studying computer science at an
+                    advanced level in high school. Eventually, I chose to pursue
+                    web development as my college program, and my coding skills
+                    have greatly improved as a result. I enjoy exploring
+                    different programming languages and technologies and
+                    continues to learn through online platforms outside of my
+                    classes.
                   </p>
 
                   {/* <AnimatedPage>
