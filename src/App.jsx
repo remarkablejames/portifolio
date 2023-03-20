@@ -1,43 +1,60 @@
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link, useLocation } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
+import { AnimatePresence } from "framer-motion";
 const App = () => {
+  const location = useLocation();
   return (
     <div className=" h-[100vh]   bg-zinc-900">
       <div className=" bg-zinc-900">
         <div className=" flex items-center justify-between sm:mx-12 md:mx-12 py-4 ">
           <div className="flex flex-row items-center space-x-6  ">
-            <a href="/" className="text-2xl font-bold text-white">
+            <Link
+              to="/"
+              className="  transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow text-2xl font-bold text-white"
+              element={Home}
+            >
               James
-            </a>
+            </Link>
           </div>
           <div className="flex flex-row items-center space-x-6   text-white">
-            <a
-              href="/about"
-              className="text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23] "
+            <Link
+              to="/"
+              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              element={Home}
             >
-              About
-            </a>
-            <a
-              href="/experience"
-              className="text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]"
+              Home
+            </Link>
+            <Link
+              to="/about"
+              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              element={About}
+            >
+              About Me
+            </Link>
+            <Link
+              to="/experience"
+              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              element={Skills}
             >
               Skills
-            </a>
+            </Link>
             <a
               href="/portifolio"
               className="text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]"
             >
               Portifolio
             </a>
-            <a
-              href="/contact"
-              className="text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]"
+            <Link
+              to="/contact"
+              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              element={Contact}
             >
               Contact
-            </a>
+            </Link>
             <a
               href="mailto:jame0246@algonquinlive.com"
               className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
@@ -65,8 +82,8 @@ const App = () => {
                 values="0%;3%;0%"
                 repeatCount="indefinite"
               />
-              <stop offset="0%" stop-color="#fff" />
-              <stop offset="100%" stop-color="#ff00" />
+              <stop offset="0%" stopColor="#fff" />
+              <stop offset="100%" stopColor="#ff00" />
             </radialGradient>
             <radialGradient
               id="Gradient2"
@@ -82,8 +99,8 @@ const App = () => {
                 values="0%;3%;0%"
                 repeatCount="indefinite"
               />
-              <stop offset="0%" stop-color="#0ff" />
-              <stop offset="100%" stop-color="#0ff0" />
+              <stop offset="0%" stopColor="#0ff" />
+              <stop offset="100%" stopColor="#0ff0" />
             </radialGradient>
             <radialGradient
               id="Gradient3"
@@ -99,8 +116,8 @@ const App = () => {
                 values="0%;3%;0%"
                 repeatCount="indefinite"
               />
-              <stop offset="0%" stop-color="#F2C94C" />
-              <stop offset="100%" stop-color="#f0f0" />
+              <stop offset="0%" stopColor="#F2C94C" />
+              <stop offset="100%" stopColor="#f0f0" />
             </radialGradient>
           </defs>
           <rect x={0} y={0} width="100%" height="100%" fill="url(#Gradient1)">
@@ -171,11 +188,15 @@ const App = () => {
           </rect>
         </svg>
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/experience" element={<Skills />} />
-        </Routes>
+        <AnimatePresence mode="wait">
+          <Routes key={location.pathname} location={location}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/experience" element={<Skills />} />
+            <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/portifolio" element={<Portifolio />} /> */}
+          </Routes>
+        </AnimatePresence>
       </div>
     </div>
   );
