@@ -19,9 +19,13 @@ function Home() {
                   <div className="text-lg font-normal text-white max-w-2xl mt-6 text-justify ">
                     I'm a MERN stack developer, I can build a website from
                     scratch, giving it a unique design and functionality. I can
-                    also build backend API's using Node.js and Express. Working
-                    in a team is my character, learning new things faster is my
-                    strength.
+                    also build backend API's using Node.js and Express
+                    independently or in a team environment using Agile
+                    methodologies like Scrum and Kanban and version control
+                    tools like Git . I have working knowledge of modern
+                    production tools like Docker, Git, CI/CD, and many more. My
+                    entire experience is academic, and I'm now looking for an
+                    internship or a job to acquire some real-world experience.
                   </div>
                 </div>
               </div>

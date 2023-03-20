@@ -5,12 +5,15 @@ const animations = {
   initial: {
     opacity: 0,
     y: -60,
+    transition: {
+      duration: 0.5,
+    },
   },
   animate: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.6,
+      duration: 0.8,
       ease: "easeIn",
     },
   },
@@ -19,7 +22,7 @@ const animations = {
     opacity: 0,
     y: 100,
     transition: {
-      duration: 0.5,
+      duration: 0.3,
       ease: "easeOut",
     },
   },

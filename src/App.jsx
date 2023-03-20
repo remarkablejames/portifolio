@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes, Link, useLocation } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -6,6 +6,7 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import { AnimatePresence } from "framer-motion";
 const App = () => {
+  const [activeLink, setActiveLink] = useState("Home");
   const location = useLocation();
   return (
     <div className=" h-[100vh]   bg-zinc-900">
