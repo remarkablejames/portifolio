@@ -18,8 +18,10 @@ function Home() {
 
                   <div className="text-lg font-normal text-white max-w-2xl mt-6 text-justify ">
                     Currently I'm looking for a full-time position as a web
-                    developer. If you have a position that you think I would be
-                    a good fit for, please feel free to contact me.
+                    developer, front-end or the back-end, I'm open to both and
+                    I'm incredibly able to learn new technologies at a light
+                    speed . If you have a position that you think I would be a
+                    good fit for, please feel free to contact me.
                   </div>
                 </div>
               </div>
