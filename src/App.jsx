@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
+import { Portfolio } from "./pages/Portfolio";
 import { AnimatePresence } from "framer-motion";
 const App = () => {
   const [activeLink, setActiveLink] = useState("Home");
@@ -24,41 +25,42 @@ const App = () => {
           <div className="flex flex-row items-center space-x-6   text-white">
             <Link
               to="/"
-              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
               element={Home}
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
               element={About}
             >
               About Me
             </Link>
             <Link
               to="/experience"
-              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
               element={Skills}
             >
               Skills
             </Link>
-            <a
-              href="/portifolio"
-              className="text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]"
+            <Link
+              to="/portfolio"
+              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              element={Portfolio}
             >
-              Portifolio
-            </a>
+              Portfolio
+            </Link>
             <Link
               to="/contact"
-              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
               element={Contact}
             >
               Contact
             </Link>
             <a
               href="mailto:jame0246@algonquinlive.com"
-              className="  text-lg font-light text-white transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
+              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
             >
               Download CV <span aria-hidden="true">&rarr;</span>
             </a>
@@ -195,7 +197,7 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/experience" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
-            {/* <Route path="/portifolio" element={<Portifolio />} /> */}
+            <Route path="/portfolio" element={<Portfolio />} />
           </Routes>
         </AnimatePresence>
       </div>
