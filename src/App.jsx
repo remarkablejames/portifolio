@@ -5,6 +5,7 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import { Portfolio } from "./pages/Portfolio";
 import { AnimatePresence } from "framer-motion";
+import CV from "./assets/CV.pdf";
 const App = () => {
   const location = useLocation();
   return (
@@ -57,7 +58,7 @@ const App = () => {
               Contact
             </Link>
             <a
-              href="mailto:jame0246@algonquinlive.com"
+              href={CV}
               className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
             >
               Download CV <span aria-hidden="true">&rarr;</span>

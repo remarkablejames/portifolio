@@ -1,5 +1,7 @@
 import "./home.css";
 import { AnimatedPage } from "../AnimatedPage";
+import { Link } from "react-router-dom";
+import { Portfolio } from "./Portfolio";
 function Home() {
   return (
     <>
@@ -390,12 +392,13 @@ function Home() {
               </div>
             </section>
             <div className="flex items-center justify-center mt-28">
-              <button
-                type="button"
+              <Link
+                to="/portfolio"
+                element={Portfolio}
                 className=" bg-[#FFF200] text-black rounded-md px-12 py-2 m-2 transition duration-500 ease select-none hover:bg-[#a3ba23]  focus:outline-none focus:shadow-outline"
               >
                 Talk is cheap, here's the code
-              </button>
+              </Link>
             </div>
           </AnimatedPage>
         </div>

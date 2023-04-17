@@ -1,5 +1,8 @@
 import "./home.css";
 import { AnimatedPage } from "../AnimatedPage";
+import { Portfolio } from "./Portfolio";
+import { Link } from "react-router-dom";
+import CV from "../assets/CV.pdf";
 function Home() {
   return (
     <>
@@ -26,17 +29,19 @@ function Home() {
                   delivering quality output.
                 </p>
                 <div className="button_group flex space-x-4">
-                  <button
-                    type="button"
+                  <Link
+                    to="/portfolio"
                     className=" bg-[#FFF200] text-black rounded-md px-12 py-2  m-2 transition duration-500 ease select-none hover:bg-[#a3ba23]  focus:outline-none focus:shadow-outline"
+                    element={Portfolio}
                   >
                     See Projects
-                  </button>
+                  </Link>
+
                   <button
                     type="button"
                     className=" bg-zinc-900 text-white rounded-md px-12 py-2  m-2 transition duration-500 ease select-none hover:bg-[#a3ba23] focus:outline-none focus:shadow-outline"
                   >
-                    Download CV
+                    <a href={CV}>Download CV</a>
                   </button>
                 </div>
               </div>
