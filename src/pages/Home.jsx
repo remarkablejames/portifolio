@@ -10,8 +10,8 @@ function Home() {
         <div className=" bg-black/70 h-full ">
           <AnimatedPage>
             <div className="flex flex-col items-center justify-around pt-28  md:flex-row ">
-              <div className="hero-text">
-                <h1>Hi, I'm James</h1>
+              <div className="hero-text ">
+                <h1 className="text-white">Hi, I'm James</h1>
                 <h1 className="text-4xl font-bold text-white">
                   a remarkable{" "}
                   <span className="text-yellow text-4xl font-bold text-[#FFF200]">
