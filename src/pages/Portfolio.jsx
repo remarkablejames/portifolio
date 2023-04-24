@@ -8,11 +8,11 @@ export const Portfolio = () => {
           <AnimatedPage>
             <section
               id="about"
-              className="bg-transparent flex items-center justify-around overflow-auto"
+              className="bg-transparent flex  justify-between overflow-auto "
             >
-              <div className="about_me flex  items-center     md:ml-24 md:flex-row space-x-6 pt-20 ">
+              <div className="about_me flex  items-center     md:ml-0  md:flex-row space-x-6 pt-20 ">
                 <div className="flex flex-col items-start justify-center">
-                  <h1 className="text-4xl font-normal text-white text-left">
+                  <h1 className="text-4xl font-normal text-white text-left ml-12  w-full">
                     Portfolio
                   </h1>
 
@@ -44,6 +44,60 @@ export const Portfolio = () => {
                       </div>
                     </a>
                     {/* ////////////////// */}
+                    <a
+                      href="https://natours-james.herokuapp.com"
+                      target="_blank"
+                    >
+                      <div className="mx-auto flex w-96 flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60">
+                        {/* img */}
+                        <img
+                          className="aspect-video w-96 rounded-t-2xl object-cover object-center"
+                          src="https://images.unsplash.com/photo-1482332486572-10fff1bedfbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                          alt="img"
+                        />
+                        {/* text information */}
+                        <div className="p-4">
+                          <small className="text-blue-400 text-xs">
+                            A tour-booking web app
+                          </small>
+                          <h1 className="text-2xl font-medium text-slate-600 pb-2">
+                            Natours
+                          </h1>
+                          <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
+                            Natours is a fullstack web application that let's
+                            your browse and book tours.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                    {/* ////////////////// */}
+                    <a
+                      href="https://natours-james.herokuapp.com"
+                      target="_blank"
+                    >
+                      <div className="mx-auto flex w-96 flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60">
+                        {/* img */}
+                        <img
+                          className="aspect-video w-96 rounded-t-2xl object-cover object-center"
+                          src="https://images.unsplash.com/photo-1482332486572-10fff1bedfbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                          alt="img"
+                        />
+                        {/* text information */}
+                        <div className="p-4">
+                          <small className="text-blue-400 text-xs">
+                            A tour-booking web app
+                          </small>
+                          <h1 className="text-2xl font-medium text-slate-600 pb-2">
+                            Natours
+                          </h1>
+                          <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
+                            Natours is a fullstack web application that let's
+                            your browse and book tours.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                    {/* ///////////////// */}
                     <a
                       href="https://notes-app-james.netlify.app/"
                       target="_blank"

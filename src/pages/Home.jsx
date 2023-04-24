@@ -11,24 +11,19 @@ function Home() {
           <AnimatedPage>
             <div className="flex flex-col items-center justify-around pt-28  md:flex-row ">
               <div className="hero-text">
-                <h1 className="text-4xl font-light text-white">
-                  remarkable{" "}
-                  <span className="text-yellow text-4xl font-light text-[#FFF200]">
-                    James
+                <h1>Hi, I'm James</h1>
+                <h1 className="text-4xl font-bold text-white">
+                  a remarkable{" "}
+                  <span className="text-yellow text-4xl font-bold text-[#FFF200]">
+                    web dev
                   </span>{" "}
                 </h1>
-                <p className=" text-lg font-normal text-stone-200 max-w-lg mt-3 text-justify overflow-hidden">
-                  A full stack web developer with strong skills in developing
-                  and maintaining web applications using multiple technologies
-                  such as React, Nodejs, MongoDB, Docker, and modern
-                  production-grade workflows. Highly skilled in creating
-                  user-friendly and interactive webpages using a combination of
-                  Front-End and Back-End technologies. Adept in troubleshooting,
-                  debugging and resolving complex issues. Possesses excellent
-                  communication and problem solving skills with a commitment to
-                  delivering quality output.
+                <p className=" text-2xl font-normal text-stone-200 max-w-lg mt-3 text-justify overflow-hidden">
+                  Welcome to my world of web wizardry! Where I showcase how I
+                  blend functionality, aesthetics, and seamless user experiences
+                  to make stunning online landscapes.
                 </p>
-                <div className="button_group flex space-x-4">
+                <div className="button_group flex space-x-4 pt-2">
                   <Link
                     to="/portfolio"
                     className=" bg-[#FFF200] text-black rounded-md px-12 py-2  m-2 transition duration-500 ease select-none hover:bg-[#a3ba23]  focus:outline-none focus:shadow-outline"
