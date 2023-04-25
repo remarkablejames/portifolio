@@ -75,7 +75,7 @@ export const Portfolio = () => {
                     </a>
                     {/* ////////////////// */}
                     <a
-                      href="https://library-system-james.netlify.app/index.html"
+                      href="https://library-system-james.netlify.app/"
                       target="_blank"
                     >
                       <div className="mx-auto flex w-96 flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60">
