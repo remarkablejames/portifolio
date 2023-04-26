@@ -1,6 +1,6 @@
 import "./home.css";
 import { AnimatedPage } from "../AnimatedPage";
-import { Portfolio } from "./Portfolio";
+import Skills from "./Skills";
 import { Link } from "react-router-dom";
 import CV from "../assets/CV.pdf";
 function Home() {
@@ -25,11 +25,11 @@ function Home() {
                 </p>
                 <div className="button_group flex space-x-4 pt-2">
                   <Link
-                    to="/portfolio"
+                    to="/experience"
                     className=" bg-[#FFF200] text-black rounded-md px-12 py-2  m-2 transition duration-500 ease select-none hover:bg-[#a3ba23]  focus:outline-none focus:shadow-outline"
-                    element={Portfolio}
+                    element={Skills}
                   >
-                    See Projects
+                    My Skillset
                   </Link>
 
                   <button

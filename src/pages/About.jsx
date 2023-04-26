@@ -13,7 +13,7 @@ function Home() {
             >
               <div className="about_me flex  items-center     md:ml-24 md:flex-row space-x-6 pt-20 ">
                 <div className="flex flex-col items-start justify-center">
-                  <h1 className="text-4xl font-normal text-white text-left">
+                  <h1 className="text-4xl font-bold text-white text-left">
                     About Me
                   </h1>
                   <p className="text-lg font-normal text-white max-w-2xl mt-3 text-justify ">

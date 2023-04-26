@@ -3,7 +3,7 @@ import { AnimatedPage } from "../AnimatedPage";
 function Home() {
   return (
     <>
-      <div className="clouds overflow-hidden">
+      <div className="clouds overflow-scroll">
         <div className=" bg-black/100 h-full w-full ">
           <AnimatedPage>
             <section
@@ -34,6 +34,9 @@ function Home() {
               >
                 Reach Out To Me
               </a>
+              {/* +++++++++++++++++++++++ */}
+
+              {/* +++++++++++++++++++++++ */}
             </div>
           </AnimatedPage>
         </div>

@@ -5,7 +5,7 @@ import { Portfolio } from "./Portfolio";
 function Home() {
   return (
     <>
-      <div className="clouds overflow-hidden">
+      <div className="clouds overflow-scroll">
         <div className=" bg-black/100 h-full w-full ">
           <AnimatedPage>
             <section
@@ -14,8 +14,9 @@ function Home() {
             >
               <div className="about_me flex  items-center     md:ml-24 md:flex-row space-x-6 pt-20 ">
                 <div className="flex flex-col items-start justify-center">
-                  <h1 className="text-4xl font-normal text-white text-left">
-                    Things That I can do
+                  <h1 className="text-4xl font-bold text-white text-left">
+                    Meet a developer who writes{" "}
+                    <span className="text-[#FFF200]">maintainable</span> code
                   </h1>
 
                   <div className="text-lg font-normal text-white max-w-2xl mt-6 text-justify ">
@@ -391,15 +392,43 @@ function Home() {
                 </svg>
               </div>
             </section>
-            <div className="flex items-center justify-center mt-28">
+
+            <div className="flex flex-col items-center justify-center mt-12">
+              <h1 className="text-4xl font-bold text-white text-left">
+                Problem solving & big O's?{" "}
+                <span className="text-[#FFF200]">I'm unrivalled</span>
+              </h1>
+
+              <div className="flex gap-4 text-gray-300 mt-4">
+                <a
+                  href="https://leetcode.com/remarkablejames/"
+                  className="hover:underline hover:text-[#FFF200]"
+                >
+                  LeetCode
+                </a>
+                <a
+                  href="https://www.hackerrank.com/remarkablejames"
+                  className="hover:underline hover:text-[#FFF200]"
+                >
+                  HackerRank
+                </a>
+                <a
+                  href="https://github.com/remarkablejames"
+                  className="hover:underline hover:text-[#FFF200]"
+                >
+                  GitHub
+                </a>
+              </div>
+
               <Link
                 to="/portfolio"
                 element={Portfolio}
-                className=" bg-[#FFF200] text-black rounded-md px-12 py-2 m-2 transition duration-500 ease select-none hover:bg-[#a3ba23]  focus:outline-none focus:shadow-outline"
+                className=" bg-[#FFF200] text-black rounded-md px-12 py-2 m-2 mt-12 transition duration-500 ease select-none hover:bg-[#a3ba23]  focus:outline-none focus:shadow-outline"
               >
-                Talk is cheap, here's the code
+                My Portfolio
               </Link>
             </div>
+            <div></div>
           </AnimatedPage>
         </div>
       </div>
