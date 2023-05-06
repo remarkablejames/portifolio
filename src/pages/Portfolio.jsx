@@ -11,7 +11,7 @@ export const Portfolio = () => {
               className="bg-transparent flex  justify-between  "
             >
               <div className="about_me flex  items-center       md:flex-row space-x-6 pt-20  ">
-                <div className="flex flex-col items-center justify-center ">
+                <div className="flex justify-center items-center w-screen ">
                   {/* component =====================*/}
                   <section className="bg-transparent dark:bg-transparent ">
                     <div className="container px-6 py-10 mx-auto ">
@@ -32,7 +32,7 @@ export const Portfolio = () => {
                           <div className="mx-auto flex w-full flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60">
                             {/* img */}
                             <img
-                              className="aspect-video w-96 rounded-t-2xl object-cover object-center"
+                              className="aspect-video w-full rounded-t-2xl object-cover object-center"
                               src="https://images.unsplash.com/photo-1482332486572-10fff1bedfbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
                               alt="img"
                             />
@@ -90,7 +90,7 @@ export const Portfolio = () => {
                           <div className="mx-auto flex w-full flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60">
                             {/* img */}
                             <img
-                              className="aspect-video w-96 rounded-t-2xl object-cover object-center"
+                              className="aspect-video w-full rounded-t-2xl object-cover object-center"
                               src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
                               alt="img"
                             />
@@ -117,7 +117,7 @@ export const Portfolio = () => {
                           <div className="mx-auto flex w-full flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60">
                             {/* img */}
                             <img
-                              className="aspect-video w-96 rounded-t-2xl object-cover object-center"
+                              className="aspect-video w-full rounded-t-2xl object-cover object-center"
                               src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
                               alt="img"
                             />
