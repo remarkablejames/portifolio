@@ -89,7 +89,7 @@ svg {
   align-content: center;
   overflow: hidden;
   gap: var(--gap);
-  width: 70%;
+  width: 100%;
   min-height: 40vh;
   font-family: system-ui, sans-serif;
   font-size: 1rem;
@@ -108,7 +108,7 @@ svg {
     hsl(0 0% 0% / 0),
     hsl(0 0% 0% / 1) 20%,
     hsl(0 0% 0% / 1) 80%,
-    hsl(0 0% 0% / 0)
+    hsl(0 0% 0% / 0) 100%
   );
 }
 
@@ -117,8 +117,7 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: var(--gap);
-  min-width: 100%;
+
   animation: scroll-x var(--duration) linear infinite;
 }
 
@@ -188,12 +187,12 @@ svg {
   flex-direction: column;
   gap: var(--gap);
   margin: auto;
-  max-width: 40vw;
+  max-width: 100%;
 }
 
 .wrapper--vertical {
   flex-direction: row;
-  height: 100vh;
+  height: 100%;
 }
 
 @keyframes fade {
