@@ -46,8 +46,8 @@ export const Portfolio = () => {
                               </h1>
                               <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
                                 Natours is a fullstack web application that
-                                let's your browse and book tours. built with
-                                Node.js, and MongoDB
+                                let's your browse and book tours. Built with
+                                Node.js
                               </p>
                             </div>
                           </div>
