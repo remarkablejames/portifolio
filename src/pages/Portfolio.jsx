@@ -11,9 +11,9 @@ export const Portfolio = () => {
               className="bg-transparent flex  justify-between  "
             >
               <div className="about_me flex  items-center       md:flex-row space-x-6 pt-20  ">
-                <div className="flex flex-col items-start justify-center ">
+                <div className="flex flex-col items-center justify-center ">
                   {/* component =====================*/}
-                  <section className="bg-white dark:bg-transparent ">
+                  <section className="bg-transparent dark:bg-transparent ">
                     <div className="container px-6 py-10 mx-auto ">
                       <h1 className="text-4xl font-bold text-white  text-center">
                         Things I've{" "}
