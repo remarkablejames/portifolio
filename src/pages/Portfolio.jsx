@@ -11,7 +11,7 @@ export const Portfolio = () => {
               className="bg-transparent flex  justify-between overflow-hidden "
             >
               {/* component =====================*/}
-              <section className="bg-transparent dark:bg-transparent ">
+              <section className="bg-transparent dark:bg-transparent w-full">
                 <div className="container px-6 py-10 mx-auto ">
                   <h1 className="text-4xl font-bold text-white  text-center">
                     Things I've <span className="text-[#FFF200]">built</span>

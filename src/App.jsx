@@ -12,7 +12,7 @@ const App = () => {
     <div className=" h-screen   bg-white flex flex-col justify-between">
       <nav
         className="flex justify-around py-4 bg-zinc-900 
-      backdrop-blur-md shadow-md w-full 
+      backdrop-blur-2xl  w-full z-50 sticky top-0
       "
       >
         {/* Logo Container */}
