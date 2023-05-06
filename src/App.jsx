@@ -18,25 +18,22 @@ const App = () => {
         {/* Logo Container */}
         <div className="flex items-center">
           {/* Logo */}
-          <a className="cursor-pointer">
-            <h3 className="text-2xl font-medium text-white">
-              {/* <img
+
+          <h3 className="text-2xl font-medium text-white cursor-pointer">
+            {/* <img
                 className="h-6 object-cover"
                 src="https://stackoverflow.design/assets/img/logos/so/logo-stackoverflow.svg"
                 alt="Store Logo"
               /> */}
-              remarkable
-              <span className="text-yellow  font-bold text-[#FFF200]">
-                James
-              </span>
-            </h3>
-          </a>
+            remarkable
+            <span className="text-yellow  font-bold text-[#FFF200]">James</span>
+          </h3>
         </div>
         {/* Links Section */}
         <div className="items-center hidden space-x-8 lg:flex">
           <Link
             to="/"
-            className="flex text-white hover:text-blue-500
+            className="flex text-white hover:text-[#FFF200]
               cursor-pointer transition-colors duration-300"
             element={Home}
           >
@@ -44,7 +41,7 @@ const App = () => {
           </Link>
           <Link
             to="/about"
-            className="flex text-white hover:text-blue-500
+            className="flex text-white hover:text-[#FFF200]
               cursor-pointer transition-colors duration-300"
             element={About}
           >
@@ -52,7 +49,7 @@ const App = () => {
           </Link>
           <Link
             to="/experience"
-            className="flex text-white hover:text-blue-500
+            className="flex text-white hover:text-[#FFF200]
               cursor-pointer transition-colors duration-300"
             element={Skills}
           >
@@ -60,7 +57,7 @@ const App = () => {
           </Link>
           <Link
             to="/portfolio"
-            className="flex text-white hover:text-blue-500
+            className="flex text-white hover:text-[#FFF200]
               cursor-pointer transition-colors duration-300"
             element={Portfolio}
           >
@@ -68,7 +65,7 @@ const App = () => {
           </Link>
           <Link
             to="/contact"
-            className="flex text-white hover:text-blue-500
+            className="flex text-white hover:text-[#FFF200]
               cursor-pointer transition-colors duration-300"
             element={Contact}
           >
@@ -77,7 +74,7 @@ const App = () => {
 
           <a
             href="https://medium.com/@jamesniyongira"
-            className="flex text-white hover:text-blue-500
+            className="flex text-white hover:text-[#FFF200]
               cursor-pointer transition-colors duration-300"
           >
             Blog
@@ -88,7 +85,7 @@ const App = () => {
           {/* Register */}
           <a
             href={CV}
-            className="flex text-white hover:text-blue-500
+            className="flex text-white hover:text-[#FFF200]
               cursor-pointer transition-colors duration-300"
           >
             <svg

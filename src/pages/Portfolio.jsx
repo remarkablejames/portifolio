@@ -4,13 +4,13 @@ export const Portfolio = () => {
   return (
     <>
       <div className="clouds   overflow-scroll">
-        <div className=" bg-black/40 h-full w-full ">
+        <div className=" bg-black/40 min-h-full w-full ">
           <AnimatedPage>
             <section
               id="about"
               className="bg-transparent flex  justify-between overflow-hidden "
             >
-              <div className="about_me flex  items-center       md:flex-row space-x-6 pt-20  ">
+              <div className=" flex  items-center       md:flex-row space-x-6 pt-20  ">
                 <div className="flex justify-center items-center w-screen overflow-hidden">
                   {/* component =====================*/}
                   <section className="bg-transparent dark:bg-transparent ">
@@ -23,7 +23,7 @@ export const Portfolio = () => {
                         The following projects are under incremental development
                       </p>
 
-                      <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3">
+                      <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-3 lg:grid-cols-3">
                         {/* -------------- */}
                         <a
                           href="https://natours-james.herokuapp.com"
@@ -37,7 +37,7 @@ export const Portfolio = () => {
                               alt="img"
                             />
                             {/* text information */}
-                            <div className="p-4">
+                            <div className="p-4 min-h-80">
                               <small className="text-blue-400 text-xs">
                                 A tour-booking web app
                               </small>
@@ -66,8 +66,8 @@ export const Portfolio = () => {
                             />
                             {/* text information */}
 
-                            <div className="p-4">
-                              <small className="text-blue-400 text-xs">
+                            <div className="p-4 min-h-80">
+                              <small className="text-blue-400 text-xs ">
                                 A notes-taking web app
                               </small>
                               <h1 className="text-2xl font-medium text-slate-600 pb-2">
@@ -95,7 +95,7 @@ export const Portfolio = () => {
                               alt="img"
                             />
                             {/* text information */}
-                            <div className="p-4">
+                            <div className="p-4 min-h-80">
                               <small className="text-blue-400 text-xs">
                                 A library management web app
                               </small>
@@ -122,7 +122,7 @@ export const Portfolio = () => {
                               alt="img"
                             />
                             {/* text information */}
-                            <div className="p-4">
+                            <div className="p-4 min-h-80">
                               <small className="text-blue-400 text-xs">
                                 A video search web app
                               </small>
