@@ -8,10 +8,10 @@ export const Portfolio = () => {
           <AnimatedPage>
             <section
               id="about"
-              className="bg-transparent flex  justify-between  "
+              className="bg-transparent flex  justify-between overflow-hidden "
             >
               <div className="about_me flex  items-center       md:flex-row space-x-6 pt-20  ">
-                <div className="flex justify-center items-center w-screen ">
+                <div className="flex justify-center items-center w-screen overflow-hidden">
                   {/* component =====================*/}
                   <section className="bg-transparent dark:bg-transparent ">
                     <div className="container px-6 py-10 mx-auto ">
