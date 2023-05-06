@@ -16,7 +16,7 @@ export const Portfolio = () => {
                   <h1 className="text-4xl font-bold text-white  text-center">
                     Things I've <span className="text-[#FFF200]">built</span>
                   </h1>
-                  <p className="w-64 text-white font-normal mx-auto text-center mt-2">
+                  <p className="w-64 text-white font-normal mx-auto text-center mt-2 ">
                     The following projects are under incremental development
                   </p>
 

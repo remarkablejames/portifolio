@@ -26,9 +26,7 @@ function Home() {
                     independently or in a team environment using Agile
                     methodologies like Scrum and Kanban and version control
                     tools like Git . I have working knowledge of modern
-                    production tools like Docker, Git, CI/CD, and many more. My
-                    entire experience is academic, and I'm now looking for an
-                    internship or a job to acquire some real-world experience.
+                    production tools like Docker, Git, CI/CD, and many more.
                   </div>
                 </div>
               </div>
@@ -394,10 +392,14 @@ function Home() {
             </section>
 
             <div className="flex flex-col items-center justify-center mt-12">
-              <h1 className="text-4xl font-bold text-white text-left">
+              <h1 className="text-3xl font-bold text-white text-left">
                 Problem solving & big O's?{" "}
                 <span className="text-[#FFF200]">I'm unrivalled</span>
               </h1>
+              <p className="text-gray-300 text-left mt-4">
+                My coding skills extends beyond what I learn from the class. See
+                how I solve problems and deploy clean code on GitHub.
+              </p>
 
               <div className="flex gap-4 text-gray-300 mt-4">
                 <a
