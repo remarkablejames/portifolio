@@ -9,7 +9,7 @@ import CV from "./assets/CV.pdf";
 const App = () => {
   const location = useLocation();
   return (
-    <div className=" h-screen   bg-white flex flex-col justify-between">
+    <div className=" h-screen   bg-black flex flex-col justify-between">
       <nav
         className="flex justify-around py-4 bg-zinc-900 
       backdrop-blur-2xl  w-full z-50 sticky top-0
