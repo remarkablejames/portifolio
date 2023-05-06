@@ -5,7 +5,7 @@ import { Portfolio } from "./Portfolio";
 function Home() {
   return (
     <>
-      <div className="clouds overflow-scroll">
+      <div className="clouds overflow-auto">
         <div className=" bg-black/100 h-full w-full ">
           <AnimatedPage>
             <section
