@@ -9,63 +9,115 @@ import CV from "./assets/CV.pdf";
 const App = () => {
   const location = useLocation();
   return (
-    <div className=" h-[100vh]   bg-zinc-900">
-      <div className=" bg-zinc-900">
-        <div className=" flex items-center justify-between sm:mx-12 md:mx-12 py-4 ">
-          <div className="flex flex-row items-center space-x-6  ">
-            <Link
-              to="/"
-              className="  transition-all duration-500 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow text-2xl font-bold text-white"
-              element={Home}
-            >
-              James
-            </Link>
-          </div>
-          <div className="flex flex-row items-center space-x-6   text-white">
-            <Link
-              to="/"
-              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
-              element={Home}
-            >
-              Home
-            </Link>
-            <Link
-              to="/about"
-              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
-              element={About}
-            >
-              About Me
-            </Link>
-            <Link
-              to="/experience"
-              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
-              element={Skills}
-            >
-              Skills
-            </Link>
-            <Link
-              to="/portfolio"
-              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
-              element={Portfolio}
-            >
-              Portfolio
-            </Link>
-            <Link
-              to="/contact"
-              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
-              element={Contact}
-            >
-              Contact
-            </Link>
-            <a
-              href={CV}
-              className="  text-lg font-light text-white transition-all duration-100 ease hover:font-extrabold hover:text-[#a3ba23]  hover:text-yellow"
-            >
-              Download CV <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
+    <div className=" h-screen   bg-white flex flex-col justify-between">
+      <nav
+        className="flex justify-around py-4 bg-zinc-900 
+      backdrop-blur-md shadow-md w-full 
+      "
+      >
+        {/* Logo Container */}
+        <div className="flex items-center">
+          {/* Logo */}
+          <a className="cursor-pointer">
+            <h3 className="text-2xl font-medium text-white">
+              {/* <img
+                className="h-6 object-cover"
+                src="https://stackoverflow.design/assets/img/logos/so/logo-stackoverflow.svg"
+                alt="Store Logo"
+              /> */}
+              remarkable
+              <span className="text-yellow  font-bold text-[#FFF200]">
+                James
+              </span>
+            </h3>
+          </a>
         </div>
-      </div>
+        {/* Links Section */}
+        <div className="items-center hidden space-x-8 lg:flex">
+          <Link
+            to="/"
+            className="flex text-white hover:text-blue-500
+              cursor-pointer transition-colors duration-300"
+            element={Home}
+          >
+            Home
+          </Link>
+          <Link
+            to="/about"
+            className="flex text-white hover:text-blue-500
+              cursor-pointer transition-colors duration-300"
+            element={About}
+          >
+            About Me
+          </Link>
+          <Link
+            to="/experience"
+            className="flex text-white hover:text-blue-500
+              cursor-pointer transition-colors duration-300"
+            element={Skills}
+          >
+            Skills
+          </Link>
+          <Link
+            to="/portfolio"
+            className="flex text-white hover:text-blue-500
+              cursor-pointer transition-colors duration-300"
+            element={Portfolio}
+          >
+            Portfolio
+          </Link>
+          <Link
+            to="/contact"
+            className="flex text-white hover:text-blue-500
+              cursor-pointer transition-colors duration-300"
+            element={Contact}
+          >
+            Contact
+          </Link>
+
+          <a
+            href="https://medium.com/@jamesniyongira"
+            className="flex text-white hover:text-blue-500
+              cursor-pointer transition-colors duration-300"
+          >
+            Blog
+          </a>
+        </div>
+        {/* Icon Menu Section */}
+        <div className="flex items-center space-x-2">
+          {/* Register */}
+          <a
+            href={CV}
+            className="flex text-white hover:text-blue-500
+              cursor-pointer transition-colors duration-300"
+          >
+            <svg
+              width="25px"
+              height="25px"
+              viewBox="0 0 21 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 14V17.5C20 20.5577 16 20.5 12 20.5C8 20.5 4 20.5577 4 17.5V14M12 15L12 3M12 15L8 11M12 15L16 11"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <a
+            href={CV}
+            className="flex text-white hover:text-blue-500
+              cursor-pointer transition-colors duration-300"
+          >
+            Download CV
+          </a>
+        </div>
+      </nav>
+
+      {/* Navbar ------------------------------------*/}
       {/*  */}
       <div className="clouds-wrapper">
         <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">

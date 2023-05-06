@@ -14,9 +14,9 @@ function Home() {
             >
               <div className="about_me flex  items-center     md:ml-24 md:flex-row space-x-6 pt-20 ">
                 <div className="flex flex-col items-start justify-center">
-                  <h1 className="text-4xl font-bold text-white text-left">
-                    Meet a developer who writes{" "}
-                    <span className="text-[#FFF200]">maintainable</span> code
+                  <h1 className="text-3xl font-bold text-white text-left">
+                    I write code that's not just functional <br /> but{" "}
+                    <span className="text-[#FFF200]">beautiful </span>too
                   </h1>
 
                   <div className="text-lg font-normal text-white max-w-2xl mt-6 text-justify ">

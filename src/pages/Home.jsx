@@ -11,12 +11,9 @@ function Home() {
           <AnimatedPage>
             <div className="flex flex-col items-center justify-around pt-28  md:flex-row ">
               <div className="hero-text ">
-                <h1 className="text-white">Hi, I'm James</h1>
-                <h1 className="text-4xl font-bold text-white">
-                  a remarkable{" "}
-                  <span className="text-yellow text-4xl font-bold text-[#FFF200]">
-                    web dev
-                  </span>{" "}
+                <h1 className="text-4xl font-bold text-white text-left">
+                  Meet a developer who writes <br />
+                  <span className="text-[#FFF200]">maintainable</span> code
                 </h1>
                 <p className=" text-2xl font-normal text-stone-200 max-w-lg mt-3 text-justify overflow-hidden">
                   Welcome to my world of web wizardry! Where I showcase how I
