@@ -89,60 +89,6 @@ function Home() {
                     </svg>
                   </div>
                 </div>
-                <div className="marquee marquee--reverse">
-                  <div className="marquee__group">
-                    <svg>
-                      <use xlinkHref="#hulu" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#notion" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#git" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#docker" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#nextjs" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#javascript" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#mongodb" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#nodejs" />
-                    </svg>
-                  </div>
-                  <div aria-hidden="true" className="marquee__group">
-                    <svg>
-                      <use xlinkHref="#hulu" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#notion" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#git" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#docker" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#nextjs" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#javascript" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#mongodb" />
-                    </svg>
-                    <svg>
-                      <use xlinkHref="#nodejs" />
-                    </svg>
-                  </div>
-                </div>
               </article>
               <svg
                 style={{ display: "none" }}
